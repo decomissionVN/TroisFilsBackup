@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- PARAMETERS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+
+    <!-- CSS - STYLE & BOOTSTRAP & AOS -->
+    <link rel="stylesheet" type="text/css" href="../../assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS - BOOTSTRAP & AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- SEO and Optimisation -->
+    <title id="Title_page"></title>
+</head>
+
+<body>
+    <!-- HEADER AND LANGUAGES -->
+
+    <div id="Menu_top_general_responsive"></div>
+
+    <!-- BACKGROUND IMAGE TOP HOMEPAGE -->
+    <div class="background__top-pages mb-5" id="background__top-ladies-suit">
+    </div>
+
+    <!-- THE SIMULATOR -->
+
+    <article class="personalisation__background" data-aos="fade-down" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="row personalisation__background-popup" id="personalisation__popup-top">
+                    <div class="col-12 text-center pb-5">
+                        <img src="../../assets/IMAGES/HOME/Logo.png" alt="Logo" class="logo_TF pt-3"/>
+                        <h2 class="pt-4 pb-4" id="workshop"></h2>
+                        <p id="confection_with_tailor"></p>
+                    </div>
+
+                    <!-- The first image - Long dress -->
+                    <div class="col-md-4 mb-md-0 mb-4">
+                        <div>
+                            <a href="#" onclick="Suit_Model_Save('Skirt_Suit')" id="SuitSkirt1" class="link__hover" id="ladies__dresses-image" aria-label="Custom suit skirt">
+                                <img class="ladies_suit_choice" src="../../assets/IMAGES/LADIES/SUIT/Suit-Skirt.jpg" alt="Ladies tailoring" />
+                                <div class="home__label-hover-suit">
+                                    <p class="home__label-button" id="skirt"></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pt-4 pb-5 width100 text-center  d-none d-md-block">
+                            <a href="#" onclick="Suit_Model_Save('Skirt_Suit')" class="button" id="SuitSkirt2" aria-label="Custom suit skirt"></a>
+                        </div>
+                    </div>
+
+                    <!--The second image - Wedding-->
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div>
+                            <a href="#" onclick="Suit_Model_Save('Pants_Suit')" id="SuitPants1" class="link__hover" aria-label="Custom suit pants" id="ladies__wedding-image">
+                                <img class="ladies_suit_choice" src="../../assets/IMAGES/LADIES/SUIT/Suit-Pants.jpg" alt="Ladies tailoring" />
+                                <div class="home__label-hover-suit">
+                                    <p class="home__label-button" id="pants"></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pt-4 pb-5 width100 text-center  d-none d-md-block">
+                            <a href="#" onclick="Suit_Model_Save('Pants_Suit')" id="SuitPants2" class="button" aria-label="Custom suit pants"></a>
+                        </div>
+                    </div>
+
+                    <!--The third image - suit-->
+                    <div class="col-md-4 mb-md-0 mb-4">
+                        <div>
+                            <a href="#" onclick="Suit_Model_Save('Uniform')" id="Uniform1" class="link__hover" aria-label="Custom uniforms" id="ladies__suit-image">
+                                <img class="ladies_suit_choice" src="../../assets/IMAGES/LADIES/SUIT/Uniforms.jpg" alt="Ladies tailoring" />
+                                <div class="home__label-hover-suit">
+                                    <p class="home__label-button" id="uniform"></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pt-4 pb-5 width100 text-center d-none d-md-block">
+                            <a href="#" onclick="Suit_Model_Save('Uniform')" id="Uniform2" class="button" aria-label="Custom uniform"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer class="mt-5 pt-5 pb-5" id="footer">
+    </footer>
+
+
+    
+
+    <!-- JS & ANIMATION ON SCOLL-->
+    <script>AOS.init();</script>
+    <script type="text/javascript" src="../../assets/JS/MENU/footer.js"></script>
+    <script type="text/javascript" src="../../assets/JS/MENU/Menu_Responsif.js"></script>
+    <script type="text/javascript" src="../../assets/JS/Language/Lady_Suit_Simulator.js"></script>
+    <script type="text/javascript" src="../../assets/JS/AUTH/Auth_Popup_general.js"></script>
+    <script type="text/javascript" src="../../assets/JS/LADIES/SUIT/Ladies_Suit_Simulator.js"></script>
+
+
+</body>
+
+
+</html>

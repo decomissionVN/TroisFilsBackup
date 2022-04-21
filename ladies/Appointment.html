@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- PARAMETERS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+
+    <!-- CSS - STYLE & BOOTSTRAP & AOS -->
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS - BOOTSTRAP & AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- SEO and Optimisation -->
+    <title id="Title_Page"></title>
+</head>
+
+<body>
+    <!-- HEADER AND LANGUAGES -->
+
+    <div id="Menu_top_general_responsive"></div>
+
+    <!-- BACKGROUND IMAGE TOP HOMEPAGE -->
+    <div class="background__top-pages mb-5" id="background__top-ladies-suit-dark">
+    </div>
+
+    <!-- THE SIMULATOR -->
+
+    <article class="personalisation__background-high" data-aos="fade-down" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 offset-lg-2 col-lg-8">
+                <div class="row personalisation__background-popup" id="personalisation__popup-top">
+                    <div class="col-12 green p-1 p-lg-2 text-center" id="sucess">
+                        <img src="../assets/IMAGES/GENERAL/ok.png" class="float_right" alt="custom design saved" />
+                        <div>
+                            <h3 id="Picture_title"></h3>
+                            <p id="Picture_subtitle"></p>
+                        </div>
+                    </div>    
+
+                    <!--PRESENTATION OF THE APPOINTMENT CENTER -->
+                    <div class="col-md-6 offset-md-3 col-sm-10 offset-sm-1 text-center pt-5">
+                        <img src="../assets/IMAGES/HOME/Logo.png" alt="Logo" class="logo_TF"/>
+                        <h2 class="pt-4 pb-4" id="title_appointment"></h2>
+
+                        <div id="simulator__initial-message">
+                            <h3 id="app_center"></h3>
+                            <p class="text-justify" id="zoom"></p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="row text-center full mt-4 section__grey">
+                        <h3 class="pt-3 full" id="calendly"></h3>
+                        <div class="col-12 pb-5" id="calendly_insert_english">
+                            <!-- Début de widget en ligne Calendly -->
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/trois-fils/meeting-30-minutes-english?text_color=070707&primary_color=bcb18b" style="min-width:320px;height:630px;"></div>
+                                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                            <!-- Fin de widget en ligne Calendly -->
+                        </div>
+                        <div class="col-12 pb-5" id="calendly_insert_french">
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/trois-fils/30min?text_color=020202&primary_color=ccaf5d" style="min-width:320px;height:630px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</article>
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer class="mt-5 pt-5 pb-5" id="footer">
+    </footer>
+
+
+    
+
+    <!-- JS & ANIMATION ON SCOLL-->
+    <script>AOS.init();</script>
+    <script type="text/javascript" src="../assets/JS/MENU/footer.js"></script>
+    <script type="text/javascript" src="../assets/JS/MENU/Menu_Responsif.js"></script>
+    <script type="text/javascript" src="../assets/JS/AUTH/Auth_Popup_general.js"></script>
+    <script type="text/javascript" src="../assets/JS/LADIES/DRESSES/Appointment.js"></script>
+    <script type="text/javascript" src="../assets/JS/Language/Lady_Appointment.js"></script>
+
+</body>
+</html>

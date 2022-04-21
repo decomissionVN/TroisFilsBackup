@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- PARAMETERS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+
+    <!-- CSS - STYLE & BOOTSTRAP & AOS -->
+    <link rel="stylesheet" type="text/css" href="../../assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS - BOOTSTRAP & AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- SEO and Optimisation -->
+    <title id="Title_Page"></title>
+</head>
+
+<body>
+    <!-- HEADER AND LANGUAGES -->
+
+    <div id="Menu_top_general_responsive"></div>
+
+    <!-- BACKGROUND IMAGE TOP HOMEPAGE -->
+    <div class="background__top-pages mb-5" id="background__top-ladies">
+    </div>
+
+    <!-- THE SIMULATOR -->
+
+    <article class="personalisation__background" data-aos="fade-down" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="row personalisation__background-popup" id="personalisation__popup-top">
+
+                    <!--LEFT PART DESKTOP - OPTIONS & NAVIGATION -->
+                    <div class="col-md-6 text-center pt-4">
+                        <img src="../../assets/IMAGES/HOME/Logo.png" alt="Logo" class="logo_TF"/>
+                        <h2 class="pt-4 pb-4" id="dresses_workshop"></h2>
+
+
+
+                        <!--INITIAL MESSAGE STEP 1-->
+                        <div id="simulator__initial-message">
+                            <h3 id="simulator__initial-message2"></h3>
+                            <p class="text-justify" id="simulator__initial-message3"></p>
+                        </div>
+
+
+
+                        <!-- NAVIGATION MENU -->
+                        <div class="pb-2 d-flex justify-content-around" id="simulator__navigator-image">
+
+                            <div id="Model_navigation_id">
+                                <a href="#personalisation__popup-top" alt="Step 1" onclick="simulator__redirect_navigation('Model')">
+                                    <img id="Model_navigation" class="m-auto navigation__number" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_1_missing.png" alt="XSmall" />
+                                </a>
+                            </div>
+                            <div id="Shoulder_navigation_id">
+                                <img id="Shoulder_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_2_missing.png" alt="XSmall" />
+                            </div>
+                            <div id="Style_navigation_id">
+                                <img id="Style_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_3_missing.png" alt="XSmall" />
+                            </div>
+                            <div id="Back_navigation_id">
+                                <img id="Back_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_4_missing.png" alt="XSmall" />
+                            </div>
+                            <div id="Fabric_navigation_id">
+                                <img id="Fabric_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_5_missing.png" alt="XSmall" />
+                            </div>
+                            <div id="Color_navigation_id">
+                                <img id="Color_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_6_missing.png" alt="XSmall" />
+                            </div>
+                            <div id="Measures_navigation_id">
+                                <img id="Measures_navigation" class="m-auto navigation__number opaque-05" src="../../assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_7_missing.png" alt="XSmall" />
+                            </div>
+                        </div>
+
+                        <div id="simulator__navigator-scale">
+                            <div id="simulator__navigator-scale-evolve"></div>
+                        </div>
+
+
+
+
+                        <!-- OPTIONS -->
+                        <div class="beige_background no_margin">
+                            <h2 class="pt-2 mt-3" id="options_title"></h2>
+
+                            <div class="d-flex pb-5 pt-5" id="selector__options"></div>
+                            <div class="text-center pb-4" id="selector__options-validation"></div>
+                        </div>
+                    </div>
+
+
+                    <!--RIGHT PART DESKTOP - SIMULATOR -->
+                    <div class="col-md-6 p-2">
+                        <h2 class="pt-3 pb-4 text-center" id="simulator__title">Simulator | Ladies</h2>
+                        <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-12 offset-lg-2 col-lg-8 ">
+                            <div id="simulator__explain-preview">
+                                <p class="text-justify small-text" id="simulator__subtitle"></p>
+                                <p class="text-center mt-5" id="simulator__subtitle2"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-sm-2 col-sm-8 offset-md-0 col-md-12 offset-lg-2 col-lg-8 simulator__window">
+
+                                <div class="">
+                                    <div id="simulator__window_color">
+
+                                    </div>
+                                    <div id="simulator__window_fabric">
+
+                                    </div>
+
+                                    <!--Animations on the back-->
+                                    <div class="simulator__animation-background" id="simulator__line0"></div>
+                                    <div class="simulator__animation-background" id="simulator__line1"></div>
+                                    <div class="simulator__animation-background" id="simulator__line2"></div>
+                                    <div class="simulator__animation-background" id="simulator__line3"></div>
+                                    <div class="simulator__animation-background" id="simulator__line4"></div>
+                                    <div class="simulator__animation-background" id="simulator__line5"></div>
+                                    <div class="simulator__animation-background" id="simulator__line6"></div>
+                                    <div class="simulator__animation-background" id="simulator__line7"></div>
+                                    <div class="simulator__animation-background" id="simulator__line8"></div>
+                                    <div class="simulator__animation-background" id="simulator__line9"></div>
+                                    <div class="simulator__animation-background" id="simulator__line10"></div>
+                                    <div class="simulator__animation-background" id="simulator__line11"></div>
+                                    <div class="simulator__animation-background" id="simulator__line12"></div>
+                                    <div class="simulator__animation-background" id="simulator__line13"></div>
+                                    <div class="simulator__animation-background" id="simulator__line14"></div>
+
+                                    <!--The simulation TOP / BOTTOM apear here-->
+                                    <div id="simulator__window_top"></div>
+                                    <div id="simulator__window_bottom"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-3 mt-2 justify-content-around simulator__view">
+                            <a href="#personalisation__popup-top" id="simulator__front" class="button" onclick="simulator__modify_view('front')"></a>
+                            <a href="#personalisation__popup-top" id="simulator__back" class="button" onclick="simulator__modify_view('back')"></a>
+                        </div>
+
+                        <!--EXAMPLE OF TAILORED PIECE-->
+                        <div class="mb-3 mt-3 width100" id="preview_real"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer class="mt-5 pt-5 pb-5" id="footer">
+    </footer>
+
+
+    
+
+    <!-- JS & ANIMATION ON SCOLL-->
+    <script>AOS.init();</script>
+    <script type="text/javascript" src="../../assets/JS/MENU/footer.js"></script>
+    <script type="text/javascript" src="../../assets/JS/MENU/Menu_Responsif.js"></script>
+    <script type="text/javascript" src="../../assets/JS/Language/Lady_Dress_Simulator.js"></script>
+    <script type="text/javascript" src="../../assets/JS/AUTH/Auth_Popup_Simulators.js"></script>
+    <script type="text/javascript" src="../../assets/JS/LADIES/DRESSES/Ladies_Dresses_Simulator.js"></script>
+
+
+</body>
+
+
+</html>

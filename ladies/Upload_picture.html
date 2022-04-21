@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- PARAMETERS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+
+    <!-- CSS - STYLE & BOOTSTRAP & AOS -->
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/dropzone.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS - BOOTSTRAP & AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/radialIndicator/1.4.0/radialIndicator.js"></script>
+
+
+    <!-- SEO and Optimisation -->
+    <title id="Title_Page"></title>
+</head>
+
+<body>
+    <!-- HEADER AND LANGUAGES -->
+
+    <div id="Menu_top_general_responsive"></div>
+
+    <!-- BACKGROUND IMAGE TOP HOMEPAGE -->
+    <div class="background__top-pages mb-5" id="background__top-ladies-suit-dark">
+    </div>
+
+    <!-- THE SIMULATOR -->
+
+    <article class="personalisation__background-high" data-aos="fade-down" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <div class="row personalisation__background-popup pt-4 pb-4 text-center" id="personalisation__popup-top">
+
+                    <!--EXPLAINATIONS -->
+                    <div class="col-12 p-4">
+                        <h2 class="pt-4" id="title_upload"></h2>
+                        <p class="pt-4 pb-5" id="subtitle_upload"></p>
+                    </div>
+
+                    <!--PLACE TO UPLOAD THE PICTURE-->
+                    <div class="text-center width100 pt-4 pb-4 background_grey_brown">
+                        <label for="picture" id="download"></label>
+                        <input type="file" id="picture" accept="image/png, image/jpeg, image/jpg, image/bmp">
+                        <div class="white_warn" id="Needed_picture_div"><p id="Needed_picture"></p></div>
+                    </div>
+                    <div class="width100 p-3 text-center" id="loading_div">
+                        <p class="text-center" id="loading"></p>
+                        <div id="process" class="m-auto"></div>
+                    </div>
+                   
+
+                    <!--ANY COMMENT?-->
+                    <div class="m-auto width80">
+                        <h3 class="pt-5" id="comment"></h3>
+                        <div class="">
+                            <form method="post" id="Upload_picture-comment" autocomplete="on">
+
+                                <label for="comment" id="comment_label"></label>
+                                <div>
+                                    <input class="pt-2 pb-5 text-center" type="text" id="comment" placeholder="...">
+                                </div>
+                                <div class="black_warn" id="Needed_comment_div"><p id="Needed_comment"></p></div>
+                                <div id="Information_contact-picture">
+                                    <label for="Name_Picture" id="name_label"></label>
+                                    <div>
+                                        <input class="pt-2 pb-5" type="text" id="Name_Picture" placeholder="Your name">
+                                    </div>
+                                    <div class="black_warn" id="Needed_name_div"><p id="Needed_name"></p></div>
+                                    <label for="Email_Picture" id="email_label"></label>
+                                    <div>
+                                        <input class="pt-2 pb-5" type="text" id="Email_Picture" placeholder="Your Email">
+                                    </div>
+                                    <div class="black_warn" id="Needed_email_div"><p id="Needed_email"></p></div>
+                                </div>
+                                <div>
+                                    <button class="button mt-5" id="submit_picture"></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FOOTER OF THE PAGE -->
+    <footer class="mt-5 pt-5 pb-5" id="footer">
+    </footer>
+
+
+
+
+    <!-- JS & ANIMATION ON SCOLL-->
+    <script>AOS.init();</script>
+    <script type="text/javascript" src="../assets/JS/MENU/footer.js"></script>
+    <script type="text/javascript" src="../assets/JS/MENU/Menu_Responsif.js"></script>
+    <script type="text/javascript" src="../assets/JS/AUTH/Auth_Popup_general.js"></script>
+    <script type="text/javascript" src="../assets/JS/Language/Upload_picture.js"></script>
+    <script type="text/javascript" src="../assets/JS/LADIES/DRESSES/Upload_picture.js"></script>
+</body>
+
+
+</html>
