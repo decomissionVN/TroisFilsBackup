@@ -19,10 +19,10 @@ class Model {
 }
 
 let Models = [];
-Models.push(new Model('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/ModelS.png', 'Small'));
-Models.push(new Model('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/ModelM.png', 'Medium'));
-Models.push(new Model('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/ModelL.png', 'Large'));
-Models.push(new Model('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/ModelXL.png', 'XLarge'));
+Models.push(new Model('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/ModelS.png', 'Small'));
+Models.push(new Model('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/ModelM.png', 'Medium'));
+Models.push(new Model('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/ModelL.png', 'Large'));
+Models.push(new Model('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/ModelXL.png', 'XLarge'));
 
 
 class Shoulder {
@@ -45,24 +45,24 @@ class Shoulder {
 }
 
 let Shoulders = [];
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShape_preview.png', 'VShape'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_XShape_preview.png', 'XShape'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_OneShoulder_preview.png', 'OneShoulder'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Crossed_preview.png', 'Crossed'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_CrossedC_preview.png', 'CrossedC'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShapeLarge_preview.png', 'VShapeLarge'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_NakedRound_preview.png', 'NakedRound'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Naked_preview.png', 'Naked'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VHalf_preview.png', 'VHalf'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeC_preview.png', 'LargeC'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeRight_preview.png', 'LargeRight'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeNaked_preview.png', 'LargeNaked'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VUnique_preview.png', 'VUnique'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StripesCurves_preview.png', 'StripesCurves'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightNeck_preview.png', 'StraightNeck'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VLargeSleeves_preview.png', 'VLargeSleeves'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightLarge_preview.png', 'StraightLarge'));
-Shoulders.push(new Shoulder('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_BandeNaked_preview.png', 'BandeNaked'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShape_preview.png', 'VShape'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_XShape_preview.png', 'XShape'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_OneShoulder_preview.png', 'OneShoulder'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Crossed_preview.png', 'Crossed'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_CrossedC_preview.png', 'CrossedC'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShapeLarge_preview.png', 'VShapeLarge'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_NakedRound_preview.png', 'NakedRound'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Naked_preview.png', 'Naked'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VHalf_preview.png', 'VHalf'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeC_preview.png', 'LargeC'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeRight_preview.png', 'LargeRight'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeNaked_preview.png', 'LargeNaked'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VUnique_preview.png', 'VUnique'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StripesCurves_preview.png', 'StripesCurves'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightNeck_preview.png', 'StraightNeck'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VLargeSleeves_preview.png', 'VLargeSleeves'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightLarge_preview.png', 'StraightLarge'));
+Shoulders.push(new Shoulder('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/Options/Model_Medium_Shoulder_BandeNaked_preview.png', 'BandeNaked'));
 
 
 class Style {
@@ -85,19 +85,19 @@ class Style {
 }
 
 let Styles = [];
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large_preview.png', 'Large'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large2Cut_preview.png', 'Large2Cut'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large2CutFront_preview.png', 'Large2CutFront'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeCutFront_preview.png', 'LargeCutFront'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeP_preview.png', 'LargeP'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide_preview.png', 'LargeSide'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide1_preview.png', 'LargeSide1'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide2_preview.png', 'LargeSide2'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeWrist_preview.png', 'LargeWrist'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Princess_preview.png', 'Princess'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Straight_preview.png', 'Straight'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_VLarge_preview.png', 'VLarge'));
-Styles.push(new Style('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_VLargeDiff_preview.png', 'VLargeDiff'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large_preview.png', 'Large'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large2Cut_preview.png', 'Large2Cut'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Large2CutFront_preview.png', 'Large2CutFront'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeCutFront_preview.png', 'LargeCutFront'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeP_preview.png', 'LargeP'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide_preview.png', 'LargeSide'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide1_preview.png', 'LargeSide1'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeSide2_preview.png', 'LargeSide2'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_LargeWrist_preview.png', 'LargeWrist'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Princess_preview.png', 'Princess'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_Straight_preview.png', 'Straight'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_VLarge_preview.png', 'VLarge'));
+Styles.push(new Style('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/Options/Model_Medium_Style_VLargeDiff_preview.png', 'VLargeDiff'));
 
 class Back {
     constructor(imageUrl, label) {
@@ -119,24 +119,24 @@ class Back {
 }
 
 let Backs = [];
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShape_preview.png', 'VShape'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_XShape_preview.png', 'XShape'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_OneShoulder_preview.png', 'OneShoulder'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Crossed_preview.png', 'Crossed'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_CrossedC_preview.png', 'CrossedC'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShapeLarge_preview.png', 'VShapeLarge'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_NakedRound_preview.png', 'NakedRound'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Naked_preview.png', 'Naked'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VHalf_preview.png', 'VHalf'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeC_preview.png', 'LargeC'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeRight_preview.png', 'LargeRight'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeNaked_preview.png', 'LargeNaked'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VUnique_preview.png', 'VUnique'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StripesCurves_preview.png', 'StripesCurves'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightNeck_preview.png', 'StraightNeck'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VLargeSleeves_preview.png', 'VLargeSleeves'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightLarge_preview.png', 'StraightLarge'));
-Backs.push(new Back('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_BandeNaked_preview.png', 'BandeNaked'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShape_preview.png', 'VShape'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_XShape_preview.png', 'XShape'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_OneShoulder_preview.png', 'OneShoulder'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Crossed_preview.png', 'Crossed'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_CrossedC_preview.png', 'CrossedC'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VShapeLarge_preview.png', 'VShapeLarge'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_NakedRound_preview.png', 'NakedRound'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_Naked_preview.png', 'Naked'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VHalf_preview.png', 'VHalf'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeC_preview.png', 'LargeC'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeRight_preview.png', 'LargeRight'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_LargeNaked_preview.png', 'LargeNaked'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VUnique_preview.png', 'VUnique'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StripesCurves_preview.png', 'StripesCurves'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightNeck_preview.png', 'StraightNeck'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_VLargeSleeves_preview.png', 'VLargeSleeves'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_StraightLarge_preview.png', 'StraightLarge'));
+Backs.push(new Back('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/Options/Model_Medium_Shoulder_BandeNaked_preview.png', 'BandeNaked'));
 
 
 
@@ -161,13 +161,13 @@ class Fabric {
 }
 
 let Fabrics = [];
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/VeryThinSilk.jpg', 'VeryThinSilk'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/ThinSilk.jpg', 'ThinSilk'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/ThickSilk.jpg', 'ThickSilk'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/SoftSilk.jpg', 'SoftSilk'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/Silk.jpg', 'Silk'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/HeavyTexture.jpg', 'HeavyTexture'));
-Fabrics.push(new Fabric('https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/Cotton.jpg', 'Cotton'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/VeryThinSilk.jpg', 'VeryThinSilk'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/ThinSilk.jpg', 'ThinSilk'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/ThickSilk.jpg', 'ThickSilk'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/SoftSilk.jpg', 'SoftSilk'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/Silk.jpg', 'Silk'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/HeavyTexture.jpg', 'HeavyTexture'));
+Fabrics.push(new Fabric('https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/COLOR/Cotton.jpg', 'Cotton'));
 
 
 class Color {
@@ -697,20 +697,20 @@ function simulator__save_previous_draws(view) {
             let _color = queryParams.get('color');
 
             if (_shoulder === null) {
-                document.getElementById('simulator__window_top').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/MODEL/Model_${_model}_preview.png" alt="${view} model image"/>`;
-                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/MODEL/Model_${_model}_preview.png" alt="${view} model image"/>`;
+                document.getElementById('simulator__window_top').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/MODEL/Model_${_model}_preview.png" alt="${view} model image"/>`;
+                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/MODEL/Model_${_model}_preview.png" alt="${view} model image"/>`;
                 document.getElementById('preview_real').innerHTML = `<p class="text-center">${translation.real_choosed} ${_model}<p/>
-                                                                    <img src="https://troisfils.com/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Model_${_model}_preview.jpg" alt="Tailoring model real picture"/>`;
+                                                                    <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Model_${_model}_preview.jpg" alt="Tailoring model real picture"/>`;
 
             } else if (_style === null) {
-                document.getElementById('simulator__window_top').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${view} shoulder image"/>`;
-                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/MODEL/Model_${_model}_preview.png" alt="${view} shoulder image"/>`;
-                document.getElementById('preview_real').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Shoulder_${_shoulder}_preview.jpg" alt="Tailoring shoulder real picture"/>`;
+                document.getElementById('simulator__window_top').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${view} shoulder image"/>`;
+                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/MODEL/Model_${_model}_preview.png" alt="${view} shoulder image"/>`;
+                document.getElementById('preview_real').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Shoulder_${_shoulder}_preview.jpg" alt="Tailoring shoulder real picture"/>`;
 
             } else if (_back === null) {
-                document.getElementById('simulator__window_top').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${view} back image"/>`;
-                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${view} back image"/>`;
-                document.getElementById('preview_real').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Style_${_style}_preview.jpg" alt="Tailoring style real picture"/>`;
+                document.getElementById('simulator__window_top').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${view} back image"/>`;
+                document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${view}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${view} back image"/>`;
+                document.getElementById('preview_real').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Style_${_style}_preview.jpg" alt="Tailoring style real picture"/>`;
             }
 
 
@@ -721,14 +721,14 @@ function simulator__save_previous_draws(view) {
             } else if (_color === null) {
                 let backview = view;
                 simulator__save_previous_draws_Back(backview, _model, _shoulder, _style, _back);
-                document.getElementById('simulator__window_fabric').innerHTML = `<img class="full" src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="${view} back image"/>`;
+                document.getElementById('simulator__window_fabric').innerHTML = `<img class="full" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="${view} back image"/>`;
 
 
                 
             } else {
                 let backview = view;
                 simulator__save_previous_draws_Back(backview, _model, _shoulder, _style, _back);
-                document.getElementById('simulator__window_fabric').innerHTML = `<img class="full" src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="${view} back image"/>`;
+                document.getElementById('simulator__window_fabric').innerHTML = `<img class="full" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="${view} back image"/>`;
                 document.getElementById('simulator__window_color').style.background = _color;
 
             }
@@ -741,14 +741,14 @@ function simulator__save_previous_draws_Back(backview, _model, _shoulder, _style
     
     if (backview === 'FRONT') {
         console.log('FUNCTION IF FRONT');
-        document.getElementById('simulator__window_top').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${backview} back image"/>`;
-        document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${backview} back image"/>`;
-        document.getElementById('preview_real').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Back_${_back}_preview.jpg" alt="Tailoring back real picture"/>`;
+        document.getElementById('simulator__window_top').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="${backview} back image"/>`;
+        document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${backview} back image"/>`;
+        document.getElementById('preview_real').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Back_${_back}_preview.jpg" alt="Tailoring back real picture"/>`;
     } else if (backview === 'BACK') {
         console.log('FUNCTION IF BACK');
-        document.getElementById('simulator__window_top').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_back}_preview.png" alt="${backview} back image"/>`;
-        document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${backview} back image"/>`;
-        document.getElementById('preview_real').innerHTML = `<img src="https://troisfils.com/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Back_${_back}_preview.jpg" alt="Tailoring back real picture"/>`;
+        document.getElementById('simulator__window_top').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_back}_preview.png" alt="${backview} back image"/>`;
+        document.getElementById('simulator__window_bottom').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/${backview}/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="${backview} back image"/>`;
+        document.getElementById('preview_real').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/WEDDING/PREVIEWS/REAL/Back_${_back}_preview.jpg" alt="Tailoring back real picture"/>`;
     }
  }
 
@@ -882,7 +882,7 @@ function simulator__navigator_enable_step() {
         for (let i = 0; i < 7; i++) {
 
             let navIcon_current = `<a href="#personalisation__popup-top" alt="Step 1" onclick="simulator__redirect_navigation('${QueryParams_categories[i]}')">
-                                    <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation" src="https://troisfils.com/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_missing.png" alt="${QueryParams_categories[i]}" />
+                                    <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_missing.png" alt="${QueryParams_categories[i]}" />
                                 </a>`;
 
             document.getElementById(QueryParams_categories[i] + '_navigation_id').innerHTML = navIcon_current;
@@ -890,7 +890,7 @@ function simulator__navigator_enable_step() {
         }
 
         let navIcon_current_7 = `<a href="../../ladies/Measures.html" alt="Step 7" onclick="simulator__relocate_measures()">
-                                    <img class="m-auto navigation__number" id="Measures_navigation" src="https://troisfils.com/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_7_missing.png" alt="Measures" />
+                                    <img class="m-auto navigation__number" id="Measures_navigation" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_7_missing.png" alt="Measures" />
                                 </a>`;
 
         document.getElementById('Measures_navigation_id').innerHTML = navIcon_current_7;
@@ -910,7 +910,7 @@ function simulator__navigator_enable(number) {
     for (let i = 0; i < number; i++) {
 
         let navIcon_current = `<a href="#personalisation__popup-top" alt="Step 1" onclick="simulator__redirect_navigation('${QueryParams_categories[i]}')">
-                                    <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation" src="https://troisfils.com/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_missing.png" alt="${QueryParams_categories[i]}" />
+                                    <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_missing.png" alt="${QueryParams_categories[i]}" />
                                 </a>`;
 
     document.getElementById(QueryParams_categories[i] + '_navigation_id').innerHTML = navIcon_current;

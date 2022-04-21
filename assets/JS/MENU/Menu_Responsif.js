@@ -165,7 +165,7 @@ function Add_Menu_responsif(translation) {
         <!-- Button to drop the main menu -->
         <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://troisfils.com/assets/IMAGES/GENERAL/menu.png"/>
+                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="../home/index.html">${translation.Home}</a>
@@ -180,7 +180,7 @@ function Add_Menu_responsif(translation) {
         <!-- Button to sign-in or sign out -->
         <div class="btn-group">
         <button type="button" class="btn btn-secondary profile dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="https://troisfils.com/assets/IMAGES/GENERAL/profile.png"/>
+            <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/profile.png"/>
         </button>
             <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Mobile" href="#">${translation.Login}</a>
@@ -207,7 +207,7 @@ function Add_Menu_responsif(translation) {
         <div class="col-lg-4 text-right" data-aos="fade" data-aos-easing="ease" data-aos-delay="400" data-aos-duration="1500">
             <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://troisfils.com/assets/IMAGES/GENERAL/language.png"/>
+                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/language.png"/>
             </button>
                 <div class="dropdown-menu dropdown-menu-right header__language-choice">
                 <ul>
@@ -220,7 +220,7 @@ function Add_Menu_responsif(translation) {
             <!-- Button to sign-in or sign out -->
             <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="https://troisfils.com/assets/IMAGES/GENERAL/profile.png"/>
+            <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/profile.png"/>
         </button>
                 <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Desktop" href="#">${translation.Login}</a>
@@ -251,7 +251,7 @@ function Add_Menu_responsif_logged(translation) {
 <!--Popup Explications -->
     <div class="Popup__background" id="Popup__background" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000">
         <div id="Popup__Auth" class="text-center" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="1400" data-aos-delay="700">
-        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://troisfils.com/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
+        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
             <div class="row">
                 <div class="col-sm-8 offset-sm-2" id="Explications_general">
                     
@@ -274,7 +274,7 @@ function Add_Menu_responsif_logged(translation) {
         <!-- Button to drop the main menu -->
         <div class="btn-group">
         <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="https://troisfils.com/assets/IMAGES/GENERAL/menu.png"/>
+            <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
         </button>
             <div class="dropdown-menu">
                 <a class="dropdown-item" href="../home/index.html">${translation.Home}</a>
@@ -294,7 +294,7 @@ function Add_Menu_responsif_logged(translation) {
             <a id="Menu_Link_My_Dashboard" href="../dashboard/Dashboard.html">${translation.Dashboard}</a>
         </div>
         <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="https://troisfils.com/assets/IMAGES/GENERAL/profile.png"/>
+            <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/profile.png"/>
         </button>
             <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item Signout_Menu" onclick="Signout_Menu()" id="Signout_Menu_Mobile" href="#">${translation.Signout}</a>
@@ -323,7 +323,7 @@ function Add_Menu_responsif_logged(translation) {
             
             <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://troisfils.com/assets/IMAGES/GENERAL/language.png"/>
+                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/language.png"/>
             </button>
                 <div class="dropdown-menu dropdown-menu-right header__language-choice">
                 <ul>
@@ -336,7 +336,7 @@ function Add_Menu_responsif_logged(translation) {
             <!-- Button to sign-in or sign out -->
             <div class="btn-group mr-5">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://troisfils.com/assets/IMAGES/GENERAL/profile.png"/>
+                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/profile.png"/>
             </button>
                 <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item Signout_Menu" onclick="Signout_Menu()" id="Signout_Menu_Desktop" href="#">${translation.Signout}</a>
