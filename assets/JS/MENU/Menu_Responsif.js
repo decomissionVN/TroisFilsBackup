@@ -6,7 +6,6 @@ function set_preferred_language(){
         var userLang = navigator.language || navigator.userLanguage;
         let language_preferred = userLang.split('-');
         let language = language_preferred[0]
-        alert("The language is: " + language);
         save_preferred_language(language);
     }
 }
