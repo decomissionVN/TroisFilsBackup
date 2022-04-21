@@ -75,7 +75,7 @@ function Display_cookies_translated(language) {
         <div class="row w-100 text-center">
         <div class="col-12  justify-content-center">
             <a href="#" onclick="acceptCookies()" class="button mt-4">I accept</a>
-            <a href="../CGU/CGU.html" class="button mt-4">Privacy Policy</a>
+            <a href="https://decomissionvn.github.io/TroisFilsBackup/CGU/CGU.html" class="button mt-4">Privacy Policy</a>
         </div>
         
         </div>`
@@ -168,10 +168,10 @@ function Add_Menu_responsif(translation) {
                 <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="../home/index.html">${translation.Home}</a>
-                <a class="dropdown-item" href="../home/About.html">${translation.About}</a>
-                <a class="dropdown-item" href="../ladies/Ladies.html">${translation.Ladies}</a>
-                <a class="dropdown-item" href="../lentlemen/Gentlemen.html">${translation.Gentlemen}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/About.html">${translation.About}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="mailto:vivien.noeldev@gmail.com">${translation.Contact_us}</a>
             </div>
@@ -195,11 +195,11 @@ function Add_Menu_responsif(translation) {
 
         <!-- The menu appears in the Desktop view-->
         <div class="menu d-none col-8 d-lg-flex">
-            <div class="menu"><a class="dropdown-item" href="../home/index.html">${translation.Home}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../home/About.html">${translation.About}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../ladies/Ladies.html">${translation.Ladies}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
-            <div class="menu"><a href="../home/Contact.html">${translation.Contact_us}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/About.html">${translation.About}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
+            <div class="menu"><a href="https://decomissionvn.github.io/TroisFilsBackup/home/Contact.html">${translation.Contact_us}</a></div>
         </div>
 
         <!-- The drop down menu Language & Login appear beside in Desktop-->
@@ -277,12 +277,12 @@ function Add_Menu_responsif_logged(translation) {
             <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
         </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="../home/index.html">${translation.Home}</a>
-                <a class="dropdown-item" href="../home/About.html">${translation.About}</a>
-                <a class="dropdown-item" href="../ladies/Ladies.html">${translation.Ladies}</a>
-                <a class="dropdown-item" href="../gentlemen/Gentlemen.html">${translation.Gentlemen}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/About.html">${translation.About}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../home/Contact.html">${translation.Contact_us}</a>
+                <a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/Contact.html">${translation.Contact_us}</a>
             </div>
         </div>
 
@@ -291,7 +291,7 @@ function Add_Menu_responsif_logged(translation) {
         <div class="btn-group">
 
         <div class="menu_Dashboard mr-5">
-            <a id="Menu_Link_My_Dashboard" href="../dashboard/Dashboard.html">${translation.Dashboard}</a>
+            <a id="Menu_Link_My_Dashboard" href="https://decomissionvn.github.io/TroisFilsBackup/dashboard/Dashboard.html">${translation.Dashboard}</a>
         </div>
         <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/profile.png"/>
@@ -308,18 +308,18 @@ function Add_Menu_responsif_logged(translation) {
 
         <!-- The menu appears in the Desktop view-->
         <div class="menu d-none col-7 d-lg-flex">
-            <div class="menu"><a class="dropdown-item" href="../home/index.html">${translation.Home}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../home/About.html">${translation.About}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../ladies/Ladies.html">${translation.Ladies}</a></div>
-            <div class="menu"><a class="dropdown-item" href="../gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
-            <div class="menu"><a href="../home/contact.html">${translation.Contact_us}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/home/About.html">${translation.About}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
+            <div class="menu"><a href="https://decomissionvn.github.io/TroisFilsBackup/home/contact.html">${translation.Contact_us}</a></div>
         </div>
 
         <!-- The drop down menu Language & Login appear beside in Desktop-->
         <!-- Button to drop the languages-->
         <div class="col-lg-5 m-auto text-right" data-aos="fade" data-aos-easing="ease" data-aos-delay="400" data-aos-duration="1500">
             <div class="menu d-none d-lg-flex">
-                <div class="menu_Dashboard"><a href="../dashboard/Dashboard.html">${translation.Dashboard}</a></div>
+                <div class="menu_Dashboard"><a href="https://decomissionvn.github.io/TroisFilsBackup/dashboard/Dashboard.html">${translation.Dashboard}</a></div>
             
             <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
