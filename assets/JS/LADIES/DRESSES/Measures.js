@@ -23,10 +23,10 @@ function simulator__menu_measures_mobile() {
         navigator_menu += `<a href="../../ladies/dresses/Ladies_Dresses_Simulator.html" class="w-100" alt="Step ${i}" onclick="simulator__relocate_from_measures(${i})">
                                 <div class="row mb-1 Row_white">
                                     <div class="col-2 m-auto">
-                                        <img class="m-auto navigation__modify" id="${QueryParams_categories[i]}_navigation_measures_modify" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Modify.png" alt="${QueryParams_categories[i]}" />
+                                        <img class="m-auto navigation__modify" id="${QueryParams_categories[i]}_navigation_measures_modify" src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Modify.png" alt="${QueryParams_categories[i]}" />
                                     </div>
                                     <div class="col-2 m-auto">
-                                        <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation_measures" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_filled.png" alt="${QueryParams_categories[i]}" />
+                                        <img class="m-auto navigation__number" id="${QueryParams_categories[i]}_navigation_measures" src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/NAVIGATOR/Nav_${i + 1}_filled.png" alt="${QueryParams_categories[i]}" />
                                     </div>
                                     <div class="col-8 m-auto Measures_Previews_Div" id="simulator__measures_preview_${QueryParams_categories[i]}">
                                     </div>
@@ -41,7 +41,7 @@ function simulator__menu_measures_mobile() {
 
                                     </div>
                                     <div id="simulator__window_fabric_measures">
-                                        <img class="full" src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="fabric image"/>
+                                        <img class="full" src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="fabric image"/>
                                     </div>
 
                                     <div class="simulator__animation-background" id="simulator__line0"></div>
@@ -60,8 +60,8 @@ function simulator__menu_measures_mobile() {
                                     <div class="simulator__animation-background" id="simulator__line13"></div>
                                     <div class="simulator__animation-background" id="simulator__line14"></div>
 
-                                    <div id="simulator__window_top"><img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="Top image"/></div>
-                                    <div id="simulator__window_bottom"><img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="Bottom image"/></div>
+                                    <div id="simulator__window_top"><img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="Top image"/></div>
+                                    <div id="simulator__window_bottom"><img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="Bottom image"/></div>
                                 </div>`
 
 
@@ -74,11 +74,11 @@ function simulator__menu_measures_mobile() {
 //FUNCTION TO DISPLAY THE SPECIFIC PREVIEW OF EACH STEP
 
 function simulator__preview_selection(_model, _shoulder, _style, _back, _fabric, _color) {
-    document.getElementById('simulator__measures_preview_Model').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/MODEL/Model_${_model}_preview.png" alt="back model image"/>`;
-    document.getElementById('simulator__measures_preview_Shoulder').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="front cut image"/>`;
-    document.getElementById('simulator__measures_preview_Style').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="front style image"/>`;
-    document.getElementById('simulator__measures_preview_Back').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="front shoulders image"/>`;
-    document.getElementById('simulator__measures_preview_Fabric').innerHTML = `<img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="front sleeves image"/>`;
+    document.getElementById('simulator__measures_preview_Model').innerHTML = `<img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/MODEL/Model_${_model}_preview.png" alt="back model image"/>`;
+    document.getElementById('simulator__measures_preview_Shoulder').innerHTML = `<img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="front cut image"/>`;
+    document.getElementById('simulator__measures_preview_Style').innerHTML = `<img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${_model}/Model_${_model}_Style_${_style}_preview.png" alt="front style image"/>`;
+    document.getElementById('simulator__measures_preview_Back').innerHTML = `<img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/BACK/TOP/SHOULDERS/${_model}/Model_${_model}_Shoulder_${_shoulder}_preview.png" alt="front shoulders image"/>`;
+    document.getElementById('simulator__measures_preview_Fabric').innerHTML = `<img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/TEXTURE/${_fabric}.png" alt="front sleeves image"/>`;
     document.getElementById('simulator__measures_preview_Color').innerHTML = `<div id="Measures__Preview_color" style="background-color:${_color}"></div>`;
 }
 
@@ -209,13 +209,13 @@ function measures__display_past_simulations() {
         let previous_creations = "";
         for (let i = 0; i < creations_display.length; i++) {
             previous_creations += `<div class="simulator__window_previous" id="simulator__window_previous_${i}">
-                                        <a href="#" onclick="confirm_remove_element_from_array(${i})" id="simulator__window_previous_delete_${i}" aria-label="delete"><img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Delete_icon.png" alt="remove" class="remove_icon"/></a>
+                                        <a href="#" onclick="confirm_remove_element_from_array(${i})" id="simulator__window_previous_delete_${i}" aria-label="delete"><img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Delete_icon.png" alt="remove" class="remove_icon"/></a>
                                         <div class="Full_Preview_Past">
                                             <div class="simulator__window_top_Measures">
-                                            <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${creations_display[i][0]._model}/Model_${creations_display[i][0]._model}_Shoulder_${creations_display[i][0]._shoulder}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
+                                            <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${creations_display[i][0]._model}/Model_${creations_display[i][0]._model}_Shoulder_${creations_display[i][0]._shoulder}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
                                                 </div>
                                             <div class="simulator__window_bottom_Measures">
-                                                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${creations_display[i][0]._model}/Model_${creations_display[i][0]._model}_Style_${creations_display[i][0]._style}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
+                                                <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${creations_display[i][0]._model}/Model_${creations_display[i][0]._model}_Style_${creations_display[i][0]._style}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
                                             </div>
                                         </div>
                                    </div>`
@@ -244,14 +244,14 @@ function remove_element_from_array(value) {
     document.getElementById('simulator__past_simulation').innerHTML = `<div class="row">
                                                                            <div class="col-5 col-sm-6 delete_simul">
                                                                                 <div class="simulator__window_top">
-                                                                                    <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${creations_display[value][0]._model}/Model_${creations_display[value][0]._model}_Shoulder_${creations_display[value][0]._shoulder}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
+                                                                                    <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/TOP/SHOULDERS/${creations_display[value][0]._model}/Model_${creations_display[value][0]._model}_Shoulder_${creations_display[value][0]._shoulder}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
                                                                                 </div>
                                                                                 <div class="simulator__window_bottom">
-                                                                                    <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${creations_display[value][0]._model}/Model_${creations_display[value][0]._model}_Style_${creations_display[value][0]._style}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
+                                                                                    <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/LADIES/DRESSES/PREVIEWS/FRONT/BOTTOM/STYLE/${creations_display[value][0]._model}/Model_${creations_display[value][0]._model}_Style_${creations_display[value][0]._style}_preview.png" alt="Tailor's creation preview" class="previous_designs"/>
                                                                                 </div>
                                                                            </div>
                                                                            <div class="col-7 col-sm-6 m-auto text-center Previous_Simul">
-                                                                                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Sure_verification.png" alt="Remove tailoring item" id="sure_verification"/>
+                                                                                <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/SIMULATOR/MEASURES/Sure_verification.png" alt="Remove tailoring item" id="sure_verification"/>
                                                                                 <h3>You are about to remove this creation</h3>
                                                                                 <p>The deletion will be definitive. You could as well decide to continue this creation later</p>
                                                                                 <ul>
@@ -288,7 +288,7 @@ function measures__display_options() {
     document.getElementById('measures__general-section').innerHTML = `<h2 class="text-center pt-5 pb-4">How do you wish to take your measures?</h2>
                                                                      <div class="row section__grey mb-3" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="400" data-aos-duration="1500">
                                                                            <div class="col-md-6">
-                                                                                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/HOME/Tailor.jpg" alt="Tailor's appointment" class="fit"/>
+                                                                                <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/HOME/Tailor.jpg" alt="Tailor's appointment" class="fit"/>
                                                                            </div>
                                                                            <div class="col-md-6 text-center">
                                                                                 <h3>Take an appointment with the tailor</h3>
@@ -303,7 +303,7 @@ function measures__display_options() {
                                                                                 <a href="../ladies/measures_online.html" class="button mb-5">Start taking my measures</a>
                                                                             </div>
                                                                            <div class="col-md-6">
-                                                                                <img src="https://decomissionvn.github.io/TroisFilsBackup/assets/IMAGES/HOME/Tailor.jpg" alt="Tailor's appointment" class="fit"/>
+                                                                                <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/HOME/Tailor.jpg" alt="Tailor's appointment" class="fit"/>
                                                                            </div>
                                                                        </div>`;
     
