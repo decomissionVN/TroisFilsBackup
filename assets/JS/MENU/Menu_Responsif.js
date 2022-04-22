@@ -167,7 +167,7 @@ function Add_Menu_responsif(translation) {
                 <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a>
+                <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup">${translation.Home}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/About.html">${translation.About}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a>
@@ -194,7 +194,7 @@ function Add_Menu_responsif(translation) {
 
         <!-- The menu appears in the Desktop view-->
         <div class="menu d-none col-8 d-lg-flex">
-            <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup">${translation.Home}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/About.html">${translation.About}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
@@ -276,7 +276,7 @@ function Add_Menu_responsif_logged(translation) {
             <img src="https://decommissionVN.github.io/TroisFilsBackup/assets/IMAGES/GENERAL/menu.png"/>
         </button>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a>
+                <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup">${translation.Home}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/About.html">${translation.About}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a>
                 <a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a>
@@ -307,7 +307,7 @@ function Add_Menu_responsif_logged(translation) {
 
         <!-- The menu appears in the Desktop view-->
         <div class="menu d-none col-7 d-lg-flex">
-            <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/index.html">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup">${translation.Home}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/home/About.html">${translation.About}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/ladies/Ladies.html">${translation.Ladies}</a></div>
             <div class="menu"><a class="dropdown-item" href="https://decommissionVN.github.io/TroisFilsBackup/gentlemen/Gentlemen.html">${translation.Gentlemen}</a></div>
